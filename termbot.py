@@ -8,7 +8,7 @@ import time
 from dotenv import load_dotenv
 
 # DotEnv location
-path = '/home/abhi/Documents/Programming/Python/termbot/!.env'
+path = '/home/abhi/Documents/Programming/Python/!.env'
 load_dotenv(dotenv_path=path, verbose=True)
 
 # Welcome message

@@ -76,7 +76,8 @@ def bot():
         base_url = "http://api.openweathermap.org/data/2.5/weather?"
         city_name = input("Enter city name : ")
         units = "units=metric"
-        complete_url = base_url + "appid=" + api_key + "&q=" + city_name + "&" + units
+        complete_url = base_url + "appid=" + api_key + \
+            "&q=" + city_name.lower() + "&" + units
         response = requests.get(complete_url)
         x = response.json()
 
@@ -86,13 +87,22 @@ def bot():
             current_temperature = y["temp"]
             current_pressure = y["pressure"]
             current_humidiy = y["humidity"]
+            feels_like = y["feels_like"]
+            max_temp = y["temp_max"]
+            min_temp = y["temp_min"]
 
             z = x["weather"]
 
             weather_description = z[0]["description"]
 
-        print(" Temperature: " + str(current_temperature) + "°C" + "\n Pressure:  " + str(current_pressure) + "mB" +
-              "\n Humidity: " + str(current_humidiy) + "%" + "\n description = " + str(weather_description))
+        print("Weather in " + city_name.-capitalize() + " :"
+              "\nTemperature: " + str(current_temperature) + "°C" +
+              "\n Feels Like : " + str(feels_like) + "°C"
+              "\n Max: " + str(max_temp) + "°C" +
+              "\n Min : " + str(min_temp) + "°C" +
+              "\n Pressure:  " + str(current_pressure) + "mB" +
+              "\n Humidity: " + str(current_humidiy) + "%" +
+              "\n description = " + str(weather_description))
 
     elif command == "countdown":  # T-10, 9, 8...
         print("Welcome to timer!")

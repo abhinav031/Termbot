@@ -28,8 +28,8 @@ def bot():
             "calc - A simple, two number calculator" +
             "\nconvert - Convert Kilograms to Pounds and vice-versa" +
             "\nweather - Get weather info of a city" +
-            "\nhelp - Lists all available commands" +
             "\ncountdown - Simple countdown" +
+            "\nhelp - Lists all available commands" +
             "\nexit - Exit TermBot")
 
     elif command == "calc":  # (a very bad) Calculator
@@ -95,7 +95,7 @@ def bot():
 
             weather_description = z[0]["description"]
 
-        print("Weather in " + city_name.-capitalize() + " :"
+        print("Weather in " + city_name.capitalize() + " :"
               "\nTemperature: " + str(current_temperature) + "°C" +
               "\n Feels Like : " + str(feels_like) + "°C"
               "\n Max: " + str(max_temp) + "°C" +

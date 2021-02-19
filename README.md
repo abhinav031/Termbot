@@ -5,7 +5,7 @@ A simple/stupid python script that can:
 - Calculate
 - Convert weight
 - Tell the weather
-- Countdown
+- Countdown/
   And most importantly:
 - Exit
 

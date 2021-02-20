@@ -58,3 +58,5 @@ def timer():
 
 
 def start():
+    scrambler()
+    timer()

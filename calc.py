@@ -3,21 +3,21 @@ def calc():         # haha calculator go brrr
     first = float(input("First Number: "))
     second = float(input("Second Number: "))
     oper = input("Enter an operator (sum, diff, prod, quo, exp, mod) ")
-    if(oper == "sum"):
+    if(oper == "sum"):      # add
         answer = first + second
         print(answer)
-    if(oper == "diff"):
+    if(oper == "diff"):     # subtract
         answer = first - second
         print(answer)
-    if(oper == "prod"):
+    if(oper == "prod"):     # multiply
         answer = first * second
         print(answer)
-    if(oper == "quo"):
+    if(oper == "quo"):      # divide
         answer = first / second
         print(answer)
-    if(oper == "exp"):
+    if(oper == "exp"):      # exponent
         answer = first ** second
         print(answer)
-    if(oper == "mod"):
+    if(oper == "mod"):      # modulo
         answer = first % second
         print(answer)

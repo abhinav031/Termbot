@@ -1,7 +1,7 @@
 import time
 
 
-def countdown():
+def countdown():        # T-10; 9; 8; 7; 6; (Engine Ignition); 5; 4; 3; 2; 1. Lift Off!!!
     print("Welcome to timer!")
 
     def countdown(t):

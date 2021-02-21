@@ -2,13 +2,13 @@ import random
 import time
 
 
-def scrambler():
+def scrambler():        # scrambler function
     moves = ["L", "L2", "L'",
              "R", "R2", "R'",
              "F", "F2", "F'",
              "B", "B2", "B'",
              "U", "U2", "U'",
-             "D", "D2", "D'"]
+             "D", "D2", "D'"]       # moves (f in the chat for m, e and s moves)
 
     cnt = 0
     output = []
@@ -28,13 +28,13 @@ def scrambler():
     print()
 
 
-def timer():
-    e = input('press ENTER to start timer')
+def timer():        # timer function
+    _ = input('press ENTER to start timer')    # idk it says unused variable
     t1 = time.time()
     print()
     print('TIMER STARTED')
     print()
-    e = input('press ENTER to stop timer')
+    _ = input('press ENTER to stop timer')
     t2 = time.time()
     print()
     print('TIMER STOPPED')
@@ -57,6 +57,6 @@ def timer():
     print()
 
 
-def start():
+def start():        # le start
     scrambler()
     timer()

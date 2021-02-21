@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 
 # DotEnv location
-path = '/home/abhi/Documents/Programming/Python/!.env'
+path = '/home/abhi/Documents/Programming/Python/!.env'      # change dis
 load_dotenv(dotenv_path=path, verbose=True)
 
 

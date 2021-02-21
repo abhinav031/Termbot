@@ -41,7 +41,7 @@ def bot():
     elif command == "countdown":  # T-10, 9, 8...
         countdown()
 
-    elif command == "scramble":
+    elif command == "scramble":  # Rubik's cube go brrr
         start()
 
     elif command == "exit":  # I need to get out

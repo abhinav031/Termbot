@@ -6,6 +6,7 @@ from timestuff import countdown
 from scramble import scrambler
 from scramble import timer
 from scramble import start
+from rps import rps
 
 # Welcome message
 
@@ -43,6 +44,9 @@ def bot():
 
     elif command == "scramble":  # Rubik's cube go brrr
         start()
+
+    elif command == "rps":   # Rock Paper Sissor?
+        rps()
 
     elif command == "exit":  # I need to get out
         exit()

@@ -7,6 +7,7 @@ from scramble import scrambler
 from scramble import timer
 from scramble import start
 from rps import rps
+from sysinfo import info
 
 # Welcome message
 
@@ -26,7 +27,8 @@ def bot():
             "\nconvert - Convert Kilograms to Pounds and vice-versa" +
             "\nweather - Get weather info of a city" +
             "\ncountdown - Simple countdown" +
-            "\nscramble - Generates a 3x3 Rubik's cube scramble. Also functions as a timer"
+            "\nscramble - Generates a 3x3 Rubik's cube scramble. Also functions as a timer" +
+            "\nsysinfo - Gives info about system"
             "\nhelp - Lists all available commands" +
             "\nexit - Exit TermBot")
 
@@ -48,8 +50,14 @@ def bot():
     elif command == "rps":   # Rock Paper Sissor?
         rps()
 
+    elif command == "sysinfo":   # Haha system info go brrrrr
+        info()
+
     elif command == "exit":  # I need to get out
         exit()
+
+    else:
+        print("Command not found!")
 
 
 while True:  # Loop

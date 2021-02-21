@@ -25,6 +25,7 @@ def bot():
             "\nconvert - Convert Kilograms to Pounds and vice-versa" +
             "\nweather - Get weather info of a city" +
             "\ncountdown - Simple countdown" +
+            "\nscramble - Generates a 3x3 Rubik's cube scramble. Also functions as a timer"
             "\nhelp - Lists all available commands" +
             "\nexit - Exit TermBot")
 

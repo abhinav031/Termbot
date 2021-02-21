@@ -6,6 +6,7 @@ A simple/stupid python script that can:
 - Convert weight
 - Tell the weather
 - Countdown
+- Scrambler/Timer
 
 And most importantly:
 

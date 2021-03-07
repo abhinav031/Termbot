@@ -3,8 +3,6 @@ from calc import calc
 from convert import convert
 from weather import weather
 from timestuff import countdown
-from scramble import scrambler
-from scramble import timer
 from scramble import start
 from rps import rps
 from sysinfo import info
@@ -28,7 +26,8 @@ def bot():
             "\nweather - Get weather info of a city" +
             "\ncountdown - Simple countdown" +
             "\nscramble - Generates a 3x3 Rubik's cube scramble. Also functions as a timer" +
-            "\nsysinfo - Gives info about system"
+            "\nsysinfo - Gives info about system" +
+            "\nrps - Rock Paper Scissors"
             "\nhelp - Lists all available commands" +
             "\nexit - Exit TermBot")
 

@@ -24,5 +24,3 @@ And most importantly:
 5. Create a variable called API in .env file
 6. Edit the `path` variable in the .env file to whereever your .env file is.
 7. Run the python script.
-
-###### Yeah

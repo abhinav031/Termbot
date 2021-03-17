@@ -1,8 +1,9 @@
-from random import randint      # osgjrj3yun8h0jenbun89aghp9unh89
+# Imports
+from random import randint
 
 
 def rps():
-    t = ["Rock", "Paper", "Scissors"]       # Rock!
+    t = ["Rock", "Paper", "Scissors"]
 
     computer = t[randint(0, 2)]
 

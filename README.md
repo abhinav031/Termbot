@@ -4,9 +4,12 @@ A simple/stupid python script that can:
 
 - Calculate
 - Convert weight
-- Tell the weather
-- Countdown
+- Live ISS Tracker
+- Rock paper Scissors
 - Scrambler/Timer
+- System Info
+- Countdown
+- Tell the weather
 
 And most importantly:
 

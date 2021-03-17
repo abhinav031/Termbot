@@ -35,11 +35,12 @@ def weather():
 
         weather_description = z[0]["description"]
 
-    print("Weather in " + city_name.capitalize() + " :"
-          "\nTemperature: " + str(current_temperature) + "°C" +
-          "\n Feels Like : " + str(feels_like) + "°C"
-          "\n Max: " + str(max_temp) + "°C" +
-          "\n Min : " + str(min_temp) + "°C" +
-          "\n Pressure:  " + str(current_pressure) + "mB" +
-          "\n Humidity: " + str(current_humidiy) + "%" +
-          "\n description = " + str(weather_description))
+    print(
+        "Weather in " + city_name.capitalize() + " :"
+        "\nTemperature: " + str(current_temperature) + "°C" +
+        "\n Feels Like : " + str(feels_like) + "°C"
+        "\n Max: " + str(max_temp) + "°C" +
+        "\n Min : " + str(min_temp) + "°C" +
+        "\n Pressure:  " + str(current_pressure) + "mB" +
+        "\n Humidity: " + str(current_humidiy) + "%" +
+        "\n description = " + str(weather_description))

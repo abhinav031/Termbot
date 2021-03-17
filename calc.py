@@ -13,8 +13,11 @@ def calc():         # haha calculator go brrr
         answer = first * second
         print(answer)
     if(oper == "quo"):      # divide
-        answer = first / second
-        print(answer)
+        if second == 0:
+            print("no")
+        else:
+            answer = first / second
+            print(answer)
     if(oper == "exp"):      # exponent
         answer = first ** second
         print(answer)

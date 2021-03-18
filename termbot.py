@@ -1,4 +1,6 @@
 # TermBot
+
+# Imports
 from calc import calc
 from convert import convert
 from weather import weather

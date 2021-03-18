@@ -1,4 +1,6 @@
-def calc():         # haha calculator go brrr
+# Calculator
+
+def calc():
     print("Welcome to calculator!")
     first = float(input("First Number: "))
     second = float(input("Second Number: "))

@@ -1,5 +1,6 @@
+# Weight Converter
 
-def convert():          # haha weight go brrr
+def convert():
     print("Welcome to weight converter!")
     weight = float(input("Enter weight (number only): "))
     unit = input("Enter unit to convert to [(K)g or (L)bs]: ")

@@ -1,3 +1,5 @@
+# 3X3 Scrambler and Timer
+
 import random
 import time
 
@@ -8,7 +10,7 @@ def scrambler():        # scrambler function
              "F", "F2", "F'",
              "B", "B2", "B'",
              "U", "U2", "U'",
-             "D", "D2", "D'"]       # moves (f in the chat for m, e and s moves)
+             "D", "D2", "D'"]       # moves (f in the chat for m, e and s moves (f))
 
     cnt = 0
     output = []

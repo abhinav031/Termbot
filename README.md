@@ -1,6 +1,6 @@
 # TermBot
 
-A simple/stupid python script that can:
+A simple python script that can:
 
 - Calculate
 - Convert weight

@@ -1,14 +1,14 @@
 # TermBot
 
 # Imports
-from calc import calc
-from convert import convert
-from weather import weather
-from timestuff import countdown
-from scramble import start
-from rps import rps
-from sysinfo import info
-from iss import iss
+from scripts.calc import calc
+from scripts.convert import convert
+from scripts.iss import iss
+from scripts.rps import rps
+from scripts.scramble import start
+from scripts.sysinfo import info
+from scripts.timestuff import countdown
+from scripts.weather import weather
 
 
 # Welcome message

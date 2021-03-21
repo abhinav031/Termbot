@@ -2,14 +2,26 @@
 
 A simple python script that can:
 
+# Math:
+
 - Calculate
 - Convert weight
+
+# Space:
+
 - Live ISS Tracker
+- Astronomy Picture Of the Day
+
+# Weather:
+
+- Tell the weather
+
+# Fun:
+
 - Rock paper Scissors
 - Scrambler/Timer
 - System Info
 - Countdown
-- Tell the weather
 
 And most importantly:
 

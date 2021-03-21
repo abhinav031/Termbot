@@ -1,6 +1,7 @@
 # TermBot
 
 # Imports
+from scripts.apod import apod
 from scripts.calc import calc
 from scripts.convert import convert
 from scripts.iss import iss
@@ -29,6 +30,9 @@ def bot():
             "\nMath:" +
             "\n     calc - A simple, two number calculator" +
             "\n     convert - Convert Kilograms to Pounds and vice-versa" +
+            "\nSpace:" +
+            "\n     iss - live ISS tracker" +
+            "\n     apod - NASA Astronomy Picture Of the Day"
             "\nWeather:" +
             "\n     weather - Get weather info of a city" +
             "\nTime:" +
@@ -37,7 +41,6 @@ def bot():
             "\n     scramble - Generates a 3x3 Rubik's cube scramble. Also functions as a timer" +
             "\n     sysinfo - Gives info about system" +
             "\n     rps - Rock Paper Scissors" +
-            "\n     iss - live ISS tracker"
             "\nOther:"
             "\n     help - Lists all available commands" +
             "\n     exit - Exit TermBot")
@@ -65,6 +68,9 @@ def bot():
 
     elif command == "iss":      # ISS Tracker
         iss()
+
+    elif command == "apod":
+        apod()
 
     elif command == "exit":  # Exit the script
         exit()

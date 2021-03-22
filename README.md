@@ -27,12 +27,7 @@ A simple python script that can:
 
 - Exit
 
-### If you wanna use it for some reason:
+### API keys required:
 
-1. Clone this repo
-2. Get an api key from [here](https://openweathermap.org/api)
-3. `pip insall python-dotenv`
-4. Create a `.env` file
-5. Create a variable called API in .env file
-6. Edit the `path` variable in the .env file to whereever your .env file is.
-7. Run the python script.
+- [OpenWeatherMap](https://openweathermap.org/api)
+- [NASA_Api](https://api.nasa.gov/)

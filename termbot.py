@@ -5,6 +5,7 @@ from scripts.apod import apod
 from scripts.calc import calc
 from scripts.convert import convert
 from scripts.iss import iss
+from scripts.quote import quote
 from scripts.rps import rps
 from scripts.scramble import start
 from scripts.sysinfo import info
@@ -41,6 +42,7 @@ def bot():
             "\n     scramble - Generates a 3x3 Rubik's cube scramble. Also functions as a timer" +
             "\n     sysinfo - Gives info about system" +
             "\n     rps - Rock Paper Scissors" +
+            "\n     quote - Tells an inspirational quote"
             "\nOther:"
             "\n     help - Lists all available commands" +
             "\n     exit - Exit TermBot")
@@ -69,8 +71,11 @@ def bot():
     elif command == "iss":      # ISS Tracker
         iss()
 
-    elif command == "apod":
+    elif command == "apod":     # APOD
         apod()
+
+    elif command == "inspire":      # Inspirational Quote
+        quote()
 
     elif command == "exit":  # Exit the script
         exit()

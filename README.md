@@ -22,7 +22,7 @@ A simple python script that can:
 - Scrambler/Timer
 - System Info
 - Countdown
-
+- Tell an inspirational quote
 ##### And most importantly:
 
 - Exit
@@ -30,4 +30,4 @@ A simple python script that can:
 ### API keys required:
 
 - [OpenWeatherMap](https://openweathermap.org/api)
-- [NASA_Api](https://api.nasa.gov/)
+- [NASA Api](https://api.nasa.gov/)

@@ -12,7 +12,6 @@ from scripts.sysinfo import info
 from scripts.timestuff import countdown
 from scripts.weather import weather
 
-
 # Welcome message
 
 print("Welcome to TermBot!")
@@ -42,7 +41,7 @@ def bot():
             "\n     scramble - Generates a 3x3 Rubik's cube scramble. Also functions as a timer" +
             "\n     sysinfo - Gives info about system" +
             "\n     rps - Rock Paper Scissors" +
-            "\n     quote - Tells an inspirational quote"
+            "\n     inspire - Tells an inspirational quote"
             "\nOther:"
             "\n     help - Lists all available commands" +
             "\n     exit - Exit TermBot")
